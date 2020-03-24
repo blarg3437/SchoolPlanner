@@ -5,8 +5,28 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SchoolPlanner"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="MainWindow" Height="720" Width="1080">
+    <Grid Margin="10,10,81,11">
+        <Grid HorizontalAlignment="Left" Height="120" Margin="10,10,0,0" VerticalAlignment="Top" Width="906" RenderTransformOrigin="0.506,0.595">
+            <GridSplitter HorizontalAlignment="Left" Height="120" Margin="140,0,0,0" VerticalAlignment="Top" Width="120"/>
+            <GridSplitter HorizontalAlignment="Left" Height="120" Margin="270,0,0,0" VerticalAlignment="Top" Width="120"/>
+            <GridSplitter HorizontalAlignment="Left" Height="120" Margin="400,0,0,0" VerticalAlignment="Top" Width="120"/>
+            <GridSplitter HorizontalAlignment="Left" Height="120" Margin="530,0,0,0" VerticalAlignment="Top" Width="120"/>
+            <GridSplitter HorizontalAlignment="Left" Height="120" Margin="660,0,0,0" VerticalAlignment="Top" Width="120"/>
+            <GridSplitter HorizontalAlignment="Left" Height="120" Margin="790,0,0,0" VerticalAlignment="Top" Width="120"/>
+        </Grid>
+
+        <Grid HorizontalAlignment="Left" Height="100" Margin="-110,302,0,0" VerticalAlignment="Top" Width="100"/>
+        <Grid HorizontalAlignment="Left" Height="120" Margin="10,10,0,0" VerticalAlignment="Top" Width="906" RenderTransformOrigin="0.506,0.595">
+            <GridSplitter HorizontalAlignment="Left" Height="120" Margin="140,0,0,0" VerticalAlignment="Top" Width="120"/>
+            <GridSplitter HorizontalAlignment="Left" Height="120" Margin="270,0,0,0" VerticalAlignment="Top" Width="120"/>
+            <GridSplitter HorizontalAlignment="Left" Height="120" Margin="400,0,0,0" VerticalAlignment="Top" Width="120"/>
+            <GridSplitter HorizontalAlignment="Left" Height="120" Margin="530,0,0,0" VerticalAlignment="Top" Width="120"/>
+            <GridSplitter HorizontalAlignment="Left" Height="120" Margin="660,0,0,0" VerticalAlignment="Top" Width="120"/>
+            <GridSplitter HorizontalAlignment="Left" Height="120" Margin="790,0,0,0" VerticalAlignment="Top" Width="120"/>
+            <StackPanel HorizontalAlignment="Left" Height="120" Margin="10,0,0,0" VerticalAlignment="Top" Width="120" Background="{DynamicResource {x:Static SystemColors.InfoBrushKey}}">
+                <TextBlock TextWrapping="Wrap" Text="TextBlock"/>
+            </StackPanel>
+        </Grid>
     </Grid>
 </Window>
